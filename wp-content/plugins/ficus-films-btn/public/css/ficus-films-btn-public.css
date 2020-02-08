@@ -1,0 +1,31 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+
+.film-box img {
+    margin: 0 auto;
+}
+
+.film-box a {
+    color: #000;
+    text-align: center;
+    text-decoration: none;
+}
+
+.film-box a h2 {
+    margin-top: 3rem;
+}
+
+.film-box a:hover h2 {
+    text-decoration: underline;
+}
+
+.film-excerpt {
+    margin-bottom: 5rem;
+}
+
+a.film-more-link {
+    color: #cd2653;
+    font-style: italic;
+}
