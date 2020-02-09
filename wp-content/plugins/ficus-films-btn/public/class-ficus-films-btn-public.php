@@ -127,17 +127,17 @@ class Ficus_Films_Btn_Public {
                 // get 'annum'(year) taxonomy
                 $terms_years =  get_the_terms( $atts['id'], 'annum' );
                 foreach($terms_years as $terms_year) {
-                    $o .= '<span>Год: ' . $terms_year->name . '</span>';
+                    $o .= '<span>Год: ' . esc_html($terms_year->name) . '</span>';
                 }
                 // get 'genre' taxonomy
                 $terms_genres = get_the_terms( $atts['id'], 'genre' );
                 $o .= '<br><small>| ';
                 foreach($terms_genres as $terms_genre) {
-                    $o .= '<span><strong>' . $terms_genre->name  . '</strong> | </span>';
+                    $o .= '<span><strong>' . esc_html__($terms_genre->name, 'ficus-film-btn')  . '</strong> | </span>';
                 }
                 $o .= '</small><p class="film-excerpt">';
 
-                if( has_excerpt( $atts['id'] ) || $film_post->post_excerpt !== '' ){
+                if( has_excerpt( $atts['id'] ) || esc_html__($film_post->post_excerpt, 'ficus-films-btn') !== '' ){
                     $o .=  esc_html__($film_post->post_excerpt, 'ficus-films-btn');
                     $o .= '<a class="film-more-link" href="'. get_permalink( $atts['id']) . '"><small> ... Read More</small></a></p>';
                 } else {

@@ -16,4 +16,7 @@ function twentytwenty_child_enqueue_styles() {
 }
 add_action( 'wp_enqueue_scripts', 'twentytwenty_child_enqueue_styles' );
 
-
+function ficus_favicon_link() {
+    echo '<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />' . "\n";
+}
+add_action( 'wp_head', 'ficus_favicon_link' );
