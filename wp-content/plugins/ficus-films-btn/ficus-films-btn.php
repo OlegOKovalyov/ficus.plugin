@@ -15,7 +15,7 @@
  * @wordpress-plugin
  * Plugin Name:       Ficus Films Button
  * Plugin URI:        http://ficuslife.com/
- * Description:       Ficus Films Button plugin enhances the ability of the standart built in TinyMCE WordPrss editor.
+ * Description:       Ficus Films Button plugin enhances the ability of the standart built in TinyMCE WordPress editor.
  * Version:           1.0.0
  * Author:            Oleg Kovalyov
  * Author URI:        http://ficus.plugin/
