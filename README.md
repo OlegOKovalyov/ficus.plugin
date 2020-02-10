@@ -69,8 +69,8 @@ On the front-end edited this way post/page you will see the CPT `films` post wit
 
 3. Choose the film title:
 
-![Choose the film title](/wp-content/plugins/ficus-films-btn/admin/images/screenshot-3.jpg))
+![Choose the film title](/wp-content/plugins/ficus-films-btn/admin/images/screenshot-3.jpg)
 
 4. Result in *TinyMCE* area:
 
-![Result in TinyMCE area](/wp-content/plugins/ficus-films-btn/admin/images/screenshot-4.jpg))
+![Result in TinyMCE area](/wp-content/plugins/ficus-films-btn/admin/images/screenshot-4.jpg)
